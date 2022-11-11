@@ -9,6 +9,9 @@ local pj = pm:GetCurrentProject()
 local tl = pj:GetCurrentTimeline()
 local pool =pj:GetMediaPool()
 
+-- if tl:GetSetting("useCustomSettings") ~= "1" then
+--     tl:SetSetting("useCustomSettings", "1")
+-- end
 local test = tl:GetSetting("colorSpaceOutput")
 if test ~= "" then
     print("this timeline seems use project setting. please check off")
