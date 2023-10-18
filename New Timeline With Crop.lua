@@ -12,11 +12,11 @@ local pool =pj:GetMediaPool()
 -- if tl:GetSetting("useCustomSettings") ~= "1" then
 --     tl:SetSetting("useCustomSettings", "1")
 -- end
-local test = tl:GetSetting("colorSpaceOutput")
-if test ~= "" then
-    print("this timeline seems use project setting. please check off")
-    return
-end
+-- local test = tl:GetSetting("colorSpaceOutput")
+-- if test ~= "" then
+--     print("this timeline seems use project setting. please check off")
+--     return
+-- end
 
 local oldHeight = tl:GetSetting("timelineResolutionHeight")
 local oldWidth = tl:GetSetting("timelineResolutionWidth")
